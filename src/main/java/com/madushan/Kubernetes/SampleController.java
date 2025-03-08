@@ -10,6 +10,6 @@ public class SampleController {
 
     @GetMapping
     public String getGreeting() {
-        return "Make sure table names (rule, rule_configuration, table_list) and column names match your DB schema.";
+        return "Make sure table names (rule, rule_configuration, table_list) and column names match your DB schema";
     }
 }
